@@ -194,3 +194,13 @@ FROM t1;
 -- ====================================================
 -- End of Swiggy SQL Case Study
 -- ====================================================
+
+
+-- 📌 Conclusion
+-- Your SQL case study covers a wide range of business questions: customer segmentation, restaurant performance, sales growth, favorites, and item pairing. Most queries are logically correct, but a few need adjustments for time-series analysis (use YEAR(date) + MONTH(date) instead of MONTHNAME()) and ranking per group (use ROW_NUMBER()/RANK() instead of LIMIT).
+-- The exercise demonstrates:
+-- Customer analytics: inactive customers, loyal customers, favorite foods.
+-- Restaurant analytics: top restaurants overall, by month, by sales.
+-- Revenue analysis: MoM growth for company and restaurants.
+-- Product analytics: average price, co-occurrence of dishes (to be added).
+-- Overall, this file is a solid SQL case study project for GitHub. It shows skills in joins, aggregations, window functions, and business-oriented SQL.
